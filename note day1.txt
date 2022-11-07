@@ -1,0 +1,169 @@
+Unix
+- open source
+- commercial / licenses/ trademark
+
+Linux Kernel
+- heart
+- device driver
+- do not editor, wordprocessing
+
+RedHat / CentOS /Debian / Mandrake
+- Linux Distro / OE / OS
+- web service / db services / email servies
+
+File system
+/usr/lib
+/usr/bin
+/usr/man
+/etc
+/var
+/boot
+/home
+
+cmd fork process (parent-child)
+start app fork process
+
+Sun --> Oracle Solaris
+IBM AIX
+HP UX
+
+Programming 
+- compile code into machine readable
+vs Scripting
+- automation / shortcut
+- alias
+
+root account
+- disabled/enabled
+- admin / superuser
+
+user account
+- sudo
+- su
+
+abcd123
+abcd123
+
+completely login
+  $ su - 
+
+cmd -a | --all
+
+cmd --help
+man cmd
+?keyword search upward
+/keyword search downward
+n find next
+
+1. ouconnect.oracle.com
+
+2. click Log in
+
+User: 99328280.user0x
+Password: LK3VKfAzUn
+
+WAN : 1
+JEG : 2
+Khairul : 3
+Din : 4
+
+3. Click My Training Environments
+
+4. Select Linux Terminal > Start
+
+5. Authentication page
+username: oracle (non-root)
+Password: OU99328280
+
+6. Password Change
+New Password and Confirm Password :
+Or@cle1234
+
+7. su - 
+Password: OU99328380
+current password: OU99328380
+New password: Or@cle1234
+Retype new password: Or@cle1234
+
+absolute vs relative path
+/var/log
+cd /tmp
+cd var/log
+
+Korn shell (Unix)
+- history facility
+- set -o vi
+- esc, hjkl
+- AIX/Solaris
+
+bash
+- history facility
+- up and down
+- ctrl+r
+
+
+rmdir
+- remove empty dir
+
+rm
+- remove dir (-r)
+- remove file
+- remove subdir (-r)
+
+
+symbolic link
+- shortcut link
+- pointer using path
+- can be created across 
+file system
+(different disk/partition/type)
+- source can be file/dir
+vs
+hard link
+- backup link
+- pointer using inode number/data 
+block
+- must be created within same 
+file system
+- source must be file
+
+
+/tmp/a
+aaa
+/tmp/dir/aaaa
+/tmp/dir/subdir/aaaa
+
+find /var
+find /etc
+dont find /
+
+
+rm /tmp/a*
+
+
+ls
+find
+updatedb --> locate
+grep
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
