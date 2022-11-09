@@ -1,0 +1,91 @@
+kill -1 | -SIGHUP = reload/restart
+kill -2 | -SIGINT = control+c 
+- ctrl+c
+kill -3 | -SIGQUIT = core dump
+- ctrl+\
+kill -9 | -SIGKILL = force kill
+kill -15| -SIGTERM = gracefully terminate
+
+ps
+- can manage system wide processes
+jobs
+- only manage user's processes
+
+set -o noclobber
+- is to prevent overwritting
+- always force cmd >> conf
+
+
+
+0-5000	: get 2000
+5k-9999 : get 1000
+>10k   : no bonus
+
+vi bonus.sh
+#!/bin/bash
+echo "Lets calculate bonus"
+echo "Pls enter a salary amount: "
+read salary
+if [ $salary -ge 10000 ]
+then
+  echo "No bonus"
+elif [ $salary -le 5000 ]
+then
+ echo "Bonus is 2000"
+else
+  echo "Bonus is 1000"
+fi
+
+chmod +x bonus.sh
+./bonus.sh
+11000
+or 5000
+or 2000
+
+
+lab+lunch 
+- resume @2pm
+
+
+
+IaaS
+- OS/ app / security / network
+- customizable
+- consumption based charges
+
+PaaS
+- developer - code
+SaaS
+- orchestration 
+- DB
+DBaaS
+DCaaS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
